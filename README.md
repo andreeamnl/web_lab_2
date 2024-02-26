@@ -1,4 +1,4 @@
-# Landing Page: My Landing Page
+# landing page project: Sephora alternative
 
 This landing page is designed to showcase various features and offerings of a fictional beauty and cosmetics brand called "Sephora."
 
