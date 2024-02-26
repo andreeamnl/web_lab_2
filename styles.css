@@ -103,7 +103,7 @@
 
 }
 
-main > .section1, main > .section2, main >.section3{
+main > .section1, main > .section2, main >.section3, main > .section4{
   margin-top: 30px;
 }
 
@@ -165,6 +165,17 @@ main > .section1, main > .section2, main >.section3{
   justify-content:center;
   align-items: center; 
   font-size:xx-large;
+}
+
+.section4 .container1{
+  display: flex;
+  justify-content: center;
+}
+
+.section4 .col{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
