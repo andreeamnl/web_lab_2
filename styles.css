@@ -103,7 +103,7 @@
 
 }
 
-main > .section1, main > .section2, main >.section3{
+main > .section1, main > .section2, main >.section3, main >.section4{
   margin-top: 30px;
 }
 
@@ -167,6 +167,18 @@ main > .section1, main > .section2, main >.section3{
   font-size:xx-large;
 }
 
+.section4 .container1{
+  display: flex;
+  justify-content: center;
+}
+
+.section4 .col{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
 
 body {
   font-family: 'Montserrat', sans-serif; /* Apply Montserrat font to all text */
@@ -189,11 +201,54 @@ header {
   }
   
   footer {
-    background-color: #666;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #333;
+    padding: 20px;
   }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #666;
+  }
+a {
+  color: white;
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  color: black;
+}
+
+/* Change color on click */
+ a:active {
+  color: gray;
+}
+
+  
   
