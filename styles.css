@@ -70,10 +70,38 @@
   font-size: 80%;
 }
 
+
+.section1 .container1{
+  display: flex;
+  background-color: rgb(234, 160, 171);
+  width: 1400px; /* Set the desired width */
+  height: 900px; /* Set the desired height */
+  margin-right: 8px;
+  border-radius: 10px; /* Adjust the value to round the corners more or less */
+  overflow: hidden; /* Hide any content that overflows the container */
+}
+.section1 .container1 img{
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Make the image fill the width of the container */
+  height: 100%; /* Make the image fill the height of the container */
+  object-fit: cover; /* Crop the image to cover the entire container */
+}
+
+.section1 .text{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  white-space: normal;
+
+  font-size: xx-large;
+}
+
 .containers1{
   display:flex;
   justify-content: space-around;
   flex-direction: row;
+
 }
 
 .main-text{
@@ -82,7 +110,9 @@
 }
 
 /* Apply styles to the container to set fixed dimensions */
-.container1, .container2, .container3 {
+.section2 .container1,
+.section2 .container2,
+.section2 .container3 {
   width: 500px; /* Set the desired width */
   height: 370px; /* Set the desired height */
   margin-right: 8px;
@@ -91,7 +121,7 @@
 }
 
 /* Apply styles to the image to control how it fits within the container */
-.container1 img, .container2 img, .container3 img {
+.section2 .container1 img, .section2 .container2 img, .section2 .container3 img {
   display: flex;
   justify-content: center;
   width: 100%; /* Make the image fill the width of the container */
@@ -99,15 +129,15 @@
   object-fit: cover; /* Crop the image to cover the entire container */
 }
 
-.container1{
+.section2  .container1{
   background-color: pink;
 }
 
-.container2{
+.section2 .container2{
   background-color: purple;
 }
 
-.container3{
+.section2 .container3{
   background-color: beige;
 }
 
