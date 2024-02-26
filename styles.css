@@ -70,6 +70,47 @@
   font-size: 80%;
 }
 
+.containers1{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.main-text{
+  font-size: xx-large;
+  padding: 10px;
+}
+
+/* Apply styles to the container to set fixed dimensions */
+.container1, .container2, .container3 {
+  width: 500px; /* Set the desired width */
+  height: 370px; /* Set the desired height */
+  margin-right: 8px;
+  border-radius: 10px; /* Adjust the value to round the corners more or less */
+  overflow: hidden; /* Hide any content that overflows the container */
+}
+
+/* Apply styles to the image to control how it fits within the container */
+.container1 img, .container2 img, .container3 img {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Make the image fill the width of the container */
+  height: 83%; /* Make the image fill the height of the container */
+  object-fit: cover; /* Crop the image to cover the entire container */
+}
+
+.container1{
+  background-color: pink;
+}
+
+.container2{
+  background-color: purple;
+}
+
+.container3{
+  background-color: beige;
+}
+
 body {
   font-family: 'Montserrat', sans-serif; /* Apply Montserrat font to all text */
 }
