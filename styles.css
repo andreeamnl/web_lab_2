@@ -93,7 +93,6 @@
   flex-direction: column;
   justify-content: center;
   white-space: normal;
-
   font-size: xx-large;
 }
 
@@ -102,6 +101,10 @@
   justify-content: space-around;
   flex-direction: row;
 
+}
+
+main > .section1, main > .section2, main >.section3{
+  margin-top: 30px;
 }
 
 .main-text{
@@ -140,6 +143,30 @@
 .section2 .container3{
   background-color: beige;
 }
+
+.section3 .container1{
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  height: 700px;
+  border-radius: 8px;
+  overflow: hidden; /* Hide any content that overflows the container */
+  background-color: #673e3e;
+}
+
+.section3 .container1 img{
+  display: flex;
+  justify-content: center;
+
+}
+
+.section3 .container1 .text{
+  display: flex;
+  justify-content:center;
+  align-items: center; 
+  font-size:xx-large;
+}
+
 
 body {
   font-family: 'Montserrat', sans-serif; /* Apply Montserrat font to all text */
