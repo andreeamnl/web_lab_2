@@ -246,12 +246,15 @@ main > .section1, main > .section2, main >.section3, main >.section4{
   font-size:xx-large;
 }
 
-.section4 {
+.section4 , .section4 img{
   display: flex;
   justify-content: center;
   max-width: 100%;
   height: auto;
+  border-radius: 8px;
+
 }
+
 
 
 
