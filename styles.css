@@ -130,7 +130,7 @@ main > .section1, main > .section2, main >.section3, main >.section4{
 }
 
 .section2 .container2{
-  background-color: purple;
+  background-color: rgb(157, 71, 157);
 }
 
 .section2 .container3{
@@ -144,7 +144,7 @@ main > .section1, main > .section2, main >.section3, main >.section4{
   height: 700px;
   border-radius: 8px;
   overflow: hidden;
-  background-color: #673e3e;
+  background-color: #775959;
 }
 
 .section3 .container1 img{
