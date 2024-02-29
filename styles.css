@@ -1,3 +1,92 @@
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.container .wrapper .community,.container .wrapper .shopicon, .container .wrapper .basket, .no-mobile{
+  display: none;
+}
+
+
+
+img{
+  max-width: 100%;
+  height: auto;
+  
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-section ul {
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column{
+  margin-top: 5%;
+}
+
+.footer-section ul li {
+  margin-bottom: 5%;
+}
+
+.footer p,
+.footer h3,
+.footer a,
+.footer .social-links ul li, .footer-bottom{
+  margin-top:2.5%;
+  margin-bottom: 5%;
+}
+
+.section4 .container1{
+  display: flex;
+  flex-direction: column;
+}
+
+.section4 img, .section4 .text{
+  margin: 5%;
+}
+
+.section4 .search {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+
+
+
+
 .logo img{
   display: flex;
   align-items: center;
@@ -36,7 +125,11 @@
 }
 
 .search {
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  width: 30%;
+
 }
 
 .search form {
@@ -47,17 +140,10 @@
   border-radius: 20px;
   border: 1px solid #ccc;
   padding: 10px;
-  width: 200px;
+  width: 100%;
 }
 
-.search button {
-  background-color: #333;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
+
 
 .nav-elems{
   display:flex;
@@ -69,8 +155,8 @@
 .section1 .container1{
   display: flex;
   background-color: rgb(160, 191, 234);
-  width: 1400px;
-  height: 900px;
+  max-width: 100%;
+  height: auto;
   margin-right: 8px;
   border-radius: 10px;
   overflow: hidden;
@@ -140,14 +226,15 @@ main > .section1, main > .section2, main >.section3, main >.section4{
 .section3 .container1{
   display: flex;
   justify-content: space-between;
-  width: 1400px;
-  height: 700px;
+  max-width: 100%;
+  height: auto;
   border-radius: 8px;
   overflow: hidden;
   background-color: #775959;
 }
 
 .section3 .container1 img{
+  width: 60%;
   display: flex;
   justify-content: center;
 }
@@ -159,15 +246,20 @@ main > .section1, main > .section2, main >.section3, main >.section4{
   font-size:xx-large;
 }
 
-.section4 .container1{
+.section4 {
   display: flex;
   justify-content: center;
+  max-width: 100%;
+  height: auto;
 }
 
-.section4 .col{
+
+
+.section4 .search, .section4 .text{
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  width: 100%;
+  margin: 2.5%;
 }
 
 .footer-content {
@@ -236,6 +328,7 @@ main {
 }
 
 footer {
+  
     background-color: #333;
     padding: 20px;
 }
