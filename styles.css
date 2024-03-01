@@ -6,19 +6,15 @@ html, body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-.container .wrapper .community,.container .wrapper .shopicon, .container .wrapper .basket, .no-mobile{
+.container .wrapper .community,.container .wrapper .shopicon, .container .wrapper .basket, .no-mobile {
   display: none;
 }
-
-
-
 
 img{
   max-width: 100%;
   height: auto;
   
 }
-
 
 footer{
   display: flex;
@@ -58,7 +54,6 @@ footer{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-
 }
 
 .section4 img, .section4 .text{
@@ -72,18 +67,43 @@ footer{
   align-items: center;
 }
 
+.section5 .text{
+  display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2.5%;
+}
 
+.apps a{
+  /* Ensure the images are displayed inline */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.app-img {
+  /* Set the width of the images to 30% of the screen width */
+  width: 40%;
+  height: 20%;
+  margin: 10px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+  .mobile{
+    display: none;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
