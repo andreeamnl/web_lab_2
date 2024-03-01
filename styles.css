@@ -6,10 +6,6 @@ html, body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-.container .wrapper .community,.container .wrapper .shopicon, .container .wrapper .basket, .no-mobile {
-  display: none;
-}
-
 img{
   max-width: 100%;
   height: auto;
@@ -21,6 +17,20 @@ footer{
   flex-direction: column;
   justify-content: space-around;
 }
+.container .wrapper .community,.container .wrapper .shopicon, .container .wrapper .basket, .no-mobile {
+  display: none;
+}
+
+.section2 .text {
+
+  margin: 5%;
+  position: relative;
+}
+
+.section2 .text p:not(.title) {
+  display: none;
+}
+
 
 .footer-section ul {
   display: flex;
