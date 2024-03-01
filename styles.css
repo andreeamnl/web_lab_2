@@ -12,11 +12,13 @@ html, body {
 
 
 
+
 img{
   max-width: 100%;
   height: auto;
   
 }
+
 
 footer{
   display: flex;
@@ -53,6 +55,10 @@ footer{
 .section4 .container1{
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
 }
 
 .section4 img, .section4 .text{
@@ -157,7 +163,7 @@ footer{
   background-color: rgb(160, 191, 234);
   max-width: 100%;
   height: auto;
-  margin-right: 8px;
+  margin-right: 12px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -246,12 +252,16 @@ main > .section1, main > .section2, main >.section3, main >.section4{
   font-size:xx-large;
 }
 
-.section4 {
+
+.section4 , .section4 img{
   display: flex;
   justify-content: center;
   max-width: 100%;
   height: auto;
+  border-radius: 8px;
+
 }
+
 
 
 
