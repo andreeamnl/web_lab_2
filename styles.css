@@ -6,9 +6,10 @@ html, body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-.container .wrapper .community,.container .wrapper .shopicon, .container .wrapper .basket, .no-mobile{
+.container .wrapper .community,.container .wrapper .shopicon, .container .wrapper .basket, .no-mobile {
   display: none;
 }
+
 
 
 
@@ -18,6 +19,7 @@ img{
   height: auto;
   
 }
+
 
 
 footer{
@@ -58,7 +60,6 @@ footer{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-
 }
 
 .section4 img, .section4 .text{
@@ -71,6 +72,7 @@ footer{
   width: 100%;
   align-items: center;
 }
+
 
 
 
