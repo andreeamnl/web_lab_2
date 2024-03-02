@@ -131,8 +131,6 @@ footer{
 .section2 .text p:not(.title) {
   display: none;
 }
-
-
 .footer-section ul {
   display: flex;
   flex-direction: column;
