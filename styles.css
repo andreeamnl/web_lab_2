@@ -21,6 +21,46 @@ footer{
   display: none;
 }
 
+.cat {
+  display: flex;
+  justify-content: space-between; /* Align items in two columns */
+  padding: 15px 15px 20px 25px;
+}
+
+.cat .contents {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+.cat .text{
+  width:70%;
+}
+
+.cat p{
+  margin-top:3%;
+}
+
+.cat a{
+  color: #333;
+  font-style: italic;
+}
+
+.cat button {
+  background-color: #333;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: #ccc;
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.cat button:hover {
+  background-color: #555; /* Change background color on hover */
+}
+
+
+
 .section2 .text {
 
   margin: 5%;
@@ -119,10 +159,6 @@ footer{
 @media only screen and (min-width: 1200px) {}
 
 
-
-
-
-
 .logo img{
   display: flex;
   align-items: center;
@@ -188,6 +224,46 @@ footer{
   font-size: 80%;
 }
 
+.cat {
+  display: flex;
+  justify-content: center; /* Align items in two columns */
+  align-items: center;
+  padding: 20px 15px 0px 25px;
+}
+
+.cat .contents {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+.cat .text{
+  width:70%;
+}
+
+.cat p{
+  margin-top:3%;
+}
+
+.cat a{
+  color: #333;
+  font-style: italic;
+}
+
+.cat button {
+  background-color: #333;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: #ccc;
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.cat button:hover {
+  background-color: #555; /* Change background color on hover */
+}
+
+
 .section1 .container1{
   display: flex;
   background-color: rgb(160, 191, 234);
@@ -219,8 +295,11 @@ footer{
   justify-content: space-around;
   flex-direction: row;
 }
+main > .section1{
+  margin-top: 0;
+}
 
-main > .section1, main > .section2, main >.section3, main >.section4{
+ main > .section2, main >.section3, main >.section4{
   margin-top: 30px;
 }
 
@@ -293,8 +372,6 @@ main > .section1, main > .section2, main >.section3, main >.section4{
 }
 
 
-
-
 .section4 .search, .section4 .text{
   display: flex;
   justify-content: center;
@@ -303,6 +380,7 @@ main > .section1, main > .section2, main >.section3, main >.section4{
 }
 
 .footer-content {
+  color: #ccc;
   display: flex;
   justify-content: space-around;
 }
