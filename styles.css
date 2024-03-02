@@ -6,6 +6,62 @@ html, body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+
+  .mascot {
+    position: fixed;
+    right:0px;
+    width: 20%;
+    opacity: 0;
+    height: auto;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    animation-delay: 3s;
+  }
+
+  .mascot p{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+  }
+  .hoverable{
+    opacity: 0;
+  }
+  .mascot img {
+    width: 90%;
+    height: auto;
+    animation: dance 2s ease-in-out  infinite;
+  }
+  .mascot:hover .hoverable {
+    opacity: 0.6;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      bottom:0px;
+      opacity: 0;
+    }
+    to {
+      bottom:20%;
+      opacity: 0.6;
+    }
+  }
+  
+  @keyframes dance {
+    0%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(8deg);
+    }
+    100%{
+      transform: rotate(0deg);
+    }
+    
+  }
+
+  
 img{
   max-width: 100%;
   height: auto;
@@ -80,11 +136,14 @@ footer{
 .footer-section ul {
   display: flex;
   flex-direction: column;
+  align-items: center;
+
   
 }
 .footer-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .footer-column{
@@ -148,13 +207,64 @@ footer{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+
   .mobile{
     display: none;
+  }
+  .mascot {
+    position: fixed;
+    right: 20px;
+    opacity: 0;
+    width: 7%;
+    height: 0%;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    animation-delay: 3s;
+  }
+  .hoverable{
+    opacity: 0;
+  }
+  .mascot img {
+    width: 100%;
+    height: auto;
+    animation: dance 2s ease-in-out  infinite;
+  }
+  .mascot:hover .hoverable {
+    opacity: 1;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      bottom:0px;
+      opacity: 0;
+    }
+    to {
+      bottom:20%;
+      opacity: 0.6;
+    }
+  }
+  
+  @keyframes dance {
+    0%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(8deg);
+    }
+    100%{
+      transform: rotate(0deg);
+    }
+    
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -163,6 +273,7 @@ footer{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
 
 
 .logo img{
