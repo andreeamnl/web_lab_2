@@ -10,11 +10,12 @@ html, body {
   .mascot {
     position: fixed;
     right:0px;
-    width: 20%;
+    width: 15%;
     opacity: 0;
     height: auto;
     animation: fadeIn 0.5s ease-in-out forwards;
     animation-delay: 3s;
+    
   }
 
   .mascot p{
@@ -134,18 +135,21 @@ footer{
 .footer-section ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
-
   
 }
 .footer-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  border-top: 2px solid #ccc; /* Add top border */
+  border-bottom: 2px solid #ccc; /* Add top border */
+  padding: 5%;
+  
 }
 
 .footer-column{
   margin-top: 5%;
+  border:#ccc 2px;
+
 }
 
 .footer-section ul li {
@@ -529,7 +533,7 @@ main > .section1{
 }
 
 a {
-  color: white;
+  color: #ccc;
   text-decoration: none; 
 }
 
