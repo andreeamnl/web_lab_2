@@ -58,7 +58,13 @@ footer{
   background-color: #555; /* Change background color on hover */
 }
 
+.section1 .text p{
+  font-size: large;
+}
 
+.section1 .text{
+  margin: 2%;
+}
 
 .section2 .text {
 
@@ -105,7 +111,7 @@ footer{
   white-space: nowrap;
 }
 
-.section4 img, .section4 .text{
+.section4 img, .section4 .text {
   margin: 5%;
 }
 
@@ -115,6 +121,7 @@ footer{
   width: 100%;
   align-items: center;
 }
+
 
 .section5 .text{
   display: flex;
@@ -358,6 +365,7 @@ main > .section1{
   justify-content:center;
   align-items: center; 
   font-size:xx-large;
+
 }
 
 
