@@ -9,6 +9,7 @@ html, body {
 
   .mascot {
     position: fixed;
+    top: 85%;
     right:0px;
     width: 15%;
     opacity: 0;
